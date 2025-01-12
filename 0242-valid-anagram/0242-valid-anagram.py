@@ -1,9 +1,20 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        list_s = list(s)
-        list_t = list(t)
-        list_s.sort()
-        list_t.sort()
-        if list_s == list_t:
-            return True 
-        return False
+        if len(s) != len(t):
+            return False
+            
+        dict = {}
+        for i in range(len(s)):
+            if s[i] not in dict:
+                dict[s[i]] = 1
+            else:
+                dict[s[i]] += 1
+        for i in range(len(t)):
+            if t[i] not in dict:
+                print('not in')
+                return False
+            else:
+                dict[t[i]] -= 1
+                if dict[t[i]] < 0:
+                    return False
+        return True
