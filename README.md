@@ -17,8 +17,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Ajowyang/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Ajowyang/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ajowyang/LeetCode/tree/master/0242-valid-anagram) |
 ## Hash Table
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Ajowyang/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ajowyang/LeetCode/tree/master/0242-valid-anagram) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/Ajowyang/LeetCode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
