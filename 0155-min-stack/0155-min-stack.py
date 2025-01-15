@@ -20,10 +20,8 @@ class MinStack:
         return self.stack[len(self.stack)-1]
 
     def getMin(self) -> int:
-        if len(self.minstack) == 0:
-            return float('inf')
-        else:
-            return self.minstack[len(self.minstack)-1]
+      
+        return self.minstack[len(self.minstack)-1]
         
 
         
