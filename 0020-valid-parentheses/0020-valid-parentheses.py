@@ -2,7 +2,6 @@ class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
         for char in s:
-            print(char)
             match char:
                 case ('[' | '{' | '('):
                     stack.append(char)
