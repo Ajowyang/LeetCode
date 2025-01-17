@@ -1,7 +1,7 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         results = [0]
-        stack = [[temperatures[len(temperatures) - 1], len(temperatures)-1]]
+        stack = [[temperatures[-1], len(temperatures)-1]]
         for i in range(len(temperatures) - 2 , -1, -1):
             while stack and temperatures[i] >= stack[-1][0]:
                     stack.pop()
