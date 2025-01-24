@@ -12,7 +12,7 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         
-        print(slow.val)
+     
         second = slow.next
         slow.next = None
 
