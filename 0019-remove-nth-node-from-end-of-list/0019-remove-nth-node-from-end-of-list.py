@@ -28,5 +28,6 @@ class Solution:
     
         rt = second.next.next
         second.next = rt
+        #have second.next be the node after one to delete to delete that node
 
         return head
