@@ -20,14 +20,14 @@ class Solution:
                 return head
        
         second = head
-        
+        #pointer second to get to the node before the one we want to delete
         while first and first.next:
             first = first.next
             second = second.next
+        #increment first and second first should be last node and
         #second should be the node before the one we want to delete
     
-        rt = second.next.next
-        second.next = rt
+        second.next = second.next.next
         #have second.next be the node after one to delete to delete that node
 
         return head
